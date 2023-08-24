@@ -3,6 +3,7 @@ body{
     margin: 0;
     background-color: #bf99c6;
     color: white;
+    overflow-x: hidden;
 }
 
 #myName{
