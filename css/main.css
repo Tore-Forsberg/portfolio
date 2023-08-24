@@ -3,12 +3,9 @@ body{
     margin: 0;
 }
 
-.my-thumbnail {min-width: 100px !important;}
-
 #myName{
     font-family: 'Times New Roman', Times, serif;
     font-size: 100px;
-    margin-left: 0.6%;
 }
 
 #description{
