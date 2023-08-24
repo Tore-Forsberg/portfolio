@@ -5,9 +5,16 @@ body{
 
 #myName{
     font-family: 'Times New Roman', Times, serif;
-    font-size: 100px;
+    font-size: 5vw;
 }
 
 #description{
     font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5vw;
+}
+
+@media (max-width: 600px) {
+    .img-fluid{max-width: 300px !important;}
+    #myName{font-size: 12vw; margin-left: 2%;}
+    #description{font-size: 5vw; margin-left: 4%;}
 }
