@@ -15,7 +15,7 @@ body{
     font-size: 1.5vw;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 580px) {
     .img-fluid{max-width: 300px !important;}
     #myName{font-size: 12vw; margin-left: 2%;}
     #description{font-size: 5vw; margin-left: 4%;}
@@ -23,4 +23,8 @@ body{
 
 .nav-link{
     color: white !important;
+}
+
+.img-fluid{
+    max-width: 80%;
 }
