@@ -18,10 +18,22 @@
     width: 100%;
     background-color: #ffe0fa;
     margin-bottom: 5px;
+    margin-top: 5px;
 }
 
-.title{
+.mainTitle{
     font-weight: bold;
+    font-size: large;
+}
+
+.workplace{
+    font-weight: bold;
+}
+
+.date{
+    color: #eaeaea;
+    /*font-weight: bold;*/
+    font-size: 14px;
 }
 
 .mainText{
