@@ -1,3 +1,12 @@
+#myName{
+    color: #ffe0fa;
+    font-size: 20px;
+}
+
+#contactInfo{
+    font-size: 15px;
+}
+
 .smallImage{
     width: 200px;
     height: auto;
