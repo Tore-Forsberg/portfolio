@@ -12,3 +12,18 @@
     height: auto;
     border-radius: 50%;
 }
+
+.line{
+    height: 2.3px;
+    width: 100%;
+    background-color: #ffe0fa;
+    margin-bottom: 5px;
+}
+
+.title{
+    font-weight: bold;
+}
+
+.mainText{
+    width: 70%;
+}
