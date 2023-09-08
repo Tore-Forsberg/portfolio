@@ -1,20 +1,29 @@
-#myName{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 5vw;
-    color: #ffe0fa;
-}
-
-#description{
-    font-family: 'Times New Roman', Times, serif;
+#description {
     font-size: 1.5vw;
 }
 
 @media (max-width: 580px) {
-    .img-fluid{max-width: 300px !important;}
-    #myName{font-size: 12vw; margin-left: 2%;}
-    #description{font-size: 5vw; margin-left: 4%;}
+    .img-fluid {
+        max-width: 300px !important;
+    }
+
+    #myName {
+        font-size: 12vw;
+        margin-left: 2%;
+    }
+
+    #description {
+        font-size: 5vw;
+        margin-left: 4%;
+    }
 }
 
-.img-fluid{
+.img-fluid {
     max-width: 80%;
+}
+
+h1 {
+    font-family: "AmaticSC";
+    color: #ffe0fa;
+    font-size: 6em;
 }

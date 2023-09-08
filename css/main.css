@@ -1,11 +1,18 @@
-body{
+body {
     padding: 0;
     margin: 0;
-    background-color: #bf99c6   ;
+    background-color: #bf99c6;
     color: white;
     overflow-x: hidden;
 }
 
-.nav-link{
+.nav-link {
     color: white !important;
+    font-family: "Quicksand";
+}
+
+.navbar-brand {
+    font-family: "AmaticSC";
+    color: #ffe0fa;
+    font-size: 2em;
 }
