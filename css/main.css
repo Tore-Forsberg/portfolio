@@ -1,7 +1,6 @@
 body {
     padding: 0;
     margin: 0;
-    background-color: #bf99c6;
     color: white;
     overflow-x: hidden;
 }
@@ -16,4 +15,8 @@ body {
     font-family: "AmaticSC";
     color: #ffe0fa;
     font-size: 2em;
+}
+
+.navbar {
+    background-color: #bf99c6;
 }

@@ -1,5 +1,26 @@
 #description {
-    font-size: 2em;
+    font-size: 1.8rem;
+    color: black;
+}
+
+#myImage {
+    border-radius: 50%;
+    background-color: #bf99c6;
+}
+
+.img-fluid {
+    max-width: 50vw;
+    width: 60rem;
+}
+
+h1 {
+    font-family: "AmaticSC";
+    color: #bf99c6;
+    font-size: 8em;
+}
+
+.text {
+    margin-right: 0;
 }
 
 @media (max-width: 580px) {
@@ -7,23 +28,14 @@
         max-width: 300px !important;
     }
 
-    #myName {
-        font-size: 12vw;
-        margin-left: 2%;
-    }
-
     #description {
-        font-size: 5vw;
+        font-size: 1.5rem;
         margin-left: 4%;
     }
 }
 
-.img-fluid {
-    max-width: 80%;
-}
-
-h1 {
-    font-family: "AmaticSC";
-    color: #ffe0fa;
-    font-size: 8em;
+@media (max-width: 980px) {
+    .text {
+        margin-right: 10em;
+    }
 }
