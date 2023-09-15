@@ -1,41 +1,54 @@
-#myName{
-    color: #ffe0fa;
-    font-size: 20px;
+#myName {
+    color: #bf99c6;
+    font-size: 2.5em;
+    font-family: "AmaticSC";
 }
 
-#contactInfo{
+#contactInfo {
     font-size: 15px;
 }
 
-.smallImage{
+.smallImage {
     width: 200px;
     height: auto;
     border-radius: 50%;
+    background-color: lightgrey;
 }
 
-.line{
+.line {
     height: 2.3px;
     width: 100%;
-    background-color: #ffe0fa;
+    background-color: #bf99c6;
     margin-bottom: 5px;
     margin-top: 5px;
 }
 
-.mainTitle{
+.mainTitle {
     font-weight: bold;
     font-size: large;
+    color: black;
 }
 
-.workplace{
+.workplace {
     font-weight: bold;
+    color: black;
 }
 
-.date{
-    color: #eaeaea;
+.date {
+    color: grey;
     /*font-weight: bold;*/
     font-size: 14px;
 }
 
-.mainText{
+.mainText {
     width: 70%;
+    color: darkslategray
+}
+
+.titleInfo {
+    line-height: 100%;
+}
+
+.info {
+    color: darkslategray;
 }
