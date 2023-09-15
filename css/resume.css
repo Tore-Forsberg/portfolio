@@ -2,10 +2,13 @@
     color: #bf99c6;
     font-size: 2.5em;
     font-family: "AmaticSC";
+    margin-bottom: 0;
 }
 
-#contactInfo {
-    font-size: 15px;
+#myInfo {
+    margin-top: 0;
+    font-size: 1.1em;
+    color: black;
 }
 
 .smallImage {
