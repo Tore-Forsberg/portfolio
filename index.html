@@ -2,58 +2,201 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tore Forsberg</title>
-  <!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">-->
-  <!--<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">-->
-  <link rel="stylesheet" href="css/custom.css">
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/home.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tore Forsberg</title>
+    <!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">-->
+    <!--<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">-->
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/resume.css">
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg bg-body-teritary">
-    <div class="container-fluid my-auto">
-      <a class="navbar-brand" href=""> Tore Forsberg </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="subpages/resume.html">Resume</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="subpages/portfolio.html">Portfolio</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+    <nav class="navbar navbar-expand-lg bg-body-teritary">
+        <div class="container-fluid my-auto">
+            <a class="navbar-brand" href="#">
+                <img src="images/tore-logo.png" width="50" alt="">
+                Tore Forsberg
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#resume">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="subpages/portfolio.html">Portfolio</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-  <div class="my-5">
-    <div class="row justify-content-center">
-      <div class="col-lg">
-        <img src="images/toreImage.png" alt="bild på Tore Forsberg" id="myImage" class="img-fluid mx-auto d-block">
-      </div>
-      <div class="col-lg mx-auto text-center my-auto text">
-        <h1>Tore Forsberg</h1> <br>
-        <p id="description">Young adult interested in web and software development.
-          I have good knowledge in programming with most experience in Python. I also have some knowledge in web
-          development using HTML, CSS and JavaScript as well experience using frameworks such as bootstrap.
-        </p>
-      </div>
+    <div class="mb-5 py-5" id="home">
+        <div class="row justify-content-center">
+            <div class="col-lg">
+                <img src="images/toreImage2.png" alt="bild på Tore Forsberg" id="myImage"
+                    class="img-fluid mx-auto d-block">
+            </div>
+            <div class="col-lg mx-auto text-center my-auto text">
+                <h1>Tore Forsberg</h1> <br>
+                <p id="description">
+                    I am a creative individual with an interest in programming and design. I am also a good listener and
+                    willing to learn new skills.
+                </p>
+            </div>
+        </div>
     </div>
-  </div>
 
-  <!--<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>-->
-  <script src="javascript/bootstrap.min.js"></script>
+    <div class="container mt-5 py-5" id="resume">
+        <div class="row">
+            <div class="col-md-3">
+                <div style="float: left;">
+                    <img class="smallImage mx-auto d-block" src="../images/toreImage.png" alt="bild på Tore"></img>
+                    <div class="text-center fs-5">
+                        <p id="myName">Tore Forsberg</p>
+                        <p>
+                            Pronouns: they/them <br>
+                            GitHub: <a href="https://github.com/Tore-Forsberg">click here</a> <br>
+                            LinkedIn: <a href="https://www.linkedin.com/in/tore-forsberg-0a0790291/">click here</a>
+                        </p>
+                        <div id="skill">
+                            <div class="text-start">
+                                Python
+                                <div class="progress rounded 20 bg-light mb-3">
+                                    <div class="progress-bar bg-success" style="width:85%">
+                                    </div>
+                                </div>
+
+                                HTML
+                                <div class="progress rounded 20 bg-light mb-3">
+                                    <div class="progress-bar bg-success" style="width:90%">
+                                    </div>
+                                </div>
+
+                                CSS
+                                <div class="progress rounded 20 bg-light mb-3">
+                                    <div class="progress-bar bg-success" style="width:75%">
+                                    </div>
+                                </div>
+
+                                JavaScript
+                                <div class="progress rounded 20 bg-light mb-3">
+                                    <div class="progress-bar bg-success" style="width:80%">
+                                    </div>
+                                </div>
+
+                                Photoshop
+                                <div class="progress rounded 20 bg-light mb-3">
+                                    <div class="progress-bar bg-success" style="width:85%">
+                                    </div>
+                                </div>
+
+                                Maya
+                                <div class="progress rounded 20 bg-light mb-3">
+                                    <div class="progress-bar bg-success" style="width:65%">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> <br>
+            </div>
+
+            <div class="col-sm-9">
+                <div class="line"></div>
+
+                <div class="mainTitle">Experience:</div>
+                <div class="mainText">
+                    <p class="titleInfo">
+                        <span class="workplace">Marielunds Järnvägscafé</span>, Marielund&nbsp;/&nbsp;Summer worker <br>
+                        <span class="date">July 2023 - August 2023</span> <br>
+                    </p>
+                    <p class="info">
+                        For three weeks, I worked with varying assignments inside and outside the café. Inside I did
+                        tasks such as making sandwiches and ensuring all orders were fulfilled. Outside I stood by the
+                        grill and sausage cooker. I also made sure everything was clean.
+                    </p> <br>
+                </div>
+
+                <div class="line"></div>
+
+                <div class="mainTitle">Education:</div>
+                <div class="mainText">
+                    <p class="titleInfo">
+                        <span class="workplace">NTI Gymnasiet</span>, Uppsala&nbsp;/&nbsp;Examen <br>
+                        <span class="date">August 2020 - June 2023</span> <br>
+                    </p>
+                    <p class="info">
+                        Experience in Python, C#, Unity, HTML, CSS, and JavaScript. I also learned the basics of 3D
+                        modeling using Autodesk Maya and photo editing using Adobe Photoshop
+                    </p> <br>
+                </div>
+
+                <div class="line"></div>
+
+                <div class="mainTitle">Merits:</div>
+                <div class="mainText">
+                    <p class="info">
+                        Volunteer for Kodkurs with Kodcentrum held at NTI Gymnasiet Uppsala 2022 where I helped young
+                        students learn programming basics using Scratch.
+
+                    </p>
+                </div>
+
+                <div class="line"></div>
+
+                <div class="mainTitle">Language:</div>
+                <div class="mainText">
+                    <p class="info">
+                        Swedish, mother tongue <br>
+                        English, fluent spoken and written
+                    </p>
+                </div>
+
+                <div class="line"></div>
+
+                <div class="mainTitle">Certificates:</div>
+                <div class="row display-warp">
+                    <div class="col-lg-2">
+                        <span class="mainText">Python:</span> <br>
+                        <div data-iframe-width="150" data-iframe-height="270"
+                            data-share-badge-id="8781404a-794d-4f1c-89fc-38b5c6320b58"
+                            data-share-badge-host="https://www.credly.com">
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <span class="mainText">JavaScript:</span> <br>
+                        <div data-iframe-width="150" data-iframe-height="270" data-iframe-backgroundcolor="white"
+                            data-share-badge-id="227602a5-0cc5-48e4-996a-0b4d1d5603ca"
+                            data-share-badge-host="https://www.credly.com">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="line"></div>
+
+                <!-- <div class="mainTitle">References:</div>
+                <div class="mainText">
+                    <p class="info">
+
+                    </p>
+                </div>
+
+                <div class="line"></div> -->
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+    <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+    <script src="javascript/bootstrap.min.js"></script>
 </body>
 
 </html>
