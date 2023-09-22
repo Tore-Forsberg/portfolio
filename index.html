@@ -31,14 +31,14 @@
                         <a class="nav-link" href="#resume">Resume</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="subpages/portfolio.html">Portfolio</a>
+                        <a class="nav-link" href="#projects">Projects</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <div class="mb-5 py-5" id="home">
+    <div class="py-5" id="home">
         <div class="row justify-content-center">
             <div class="col-lg">
                 <img src="images/toreImage2.png" alt="bild på Tore Forsberg" id="myImage"
@@ -54,8 +54,10 @@
         </div>
     </div>
 
-    <div class="container mt-5 py-5" id="resume">
+    <!-- Resume -->
+    <div class="container py-5" id="resume">
         <div class="row">
+            <!-- Left column -->
             <div class="col-md-3">
                 <div style="float: left;">
                     <img class="smallImage mx-auto d-block" src="images/toreImage.png" alt="bild på Tore"></img>
@@ -66,7 +68,9 @@
                             GitHub: <a href="https://github.com/Tore-Forsberg">click here</a> <br>
                             LinkedIn: <a href="https://www.linkedin.com/in/tore-forsberg-0a0790291/">click here</a>
                         </p>
-                        <div id="skill">
+
+                        <!-- Skills -->
+                        <div>
                             <div class="text-start">
                                 Python
                                 <div class="progress rounded 20 bg-light mb-3">
@@ -109,6 +113,7 @@
                 </div> <br>
             </div>
 
+            <!-- Right column -->
             <div class="col-sm-9">
                 <div class="line"></div>
 
@@ -193,6 +198,56 @@
             </div>
         </div>
     </div>
+
+    <!-- Projects -->
+    <div class="container-fluid py-5" id="projects">
+        <h2 class="text-center">Projects</h2>
+        <div class="container mt-5">
+            <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="../images/projectPlaceholder.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <div class="container-fluid bg-dark bg-opacity-75 py-3">
+                                <h5>First project</h5>
+                                <p>This is currently a place holder.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item boxItem">
+                        <img src="../images/projectPlaceholder.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <div class="container-fluid bg-dark bg-opacity-75 py-3">
+                                <h5>Second project</h5>
+                                <p>This is currently a place holder.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../images/projectPlaceholder.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <div class="container-fluid bg-dark bg-opacity-75 py-3">
+                                <h5>Third project</h5>
+                                <p>This is currently a place holder.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="../javascript/bootstrap.min.js"></script>
 
     <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
     <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>

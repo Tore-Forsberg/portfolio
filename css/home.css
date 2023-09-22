@@ -14,9 +14,17 @@
 }
 
 h1 {
+    font-size: 8em;
+}
+
+h2 {
+    font-size: 4em;
+}
+
+h1,
+h2 {
     font-family: "AmaticSC";
     color: #bf99c6;
-    font-size: 8em;
 }
 
 .text {
@@ -38,8 +46,4 @@ h1 {
     .text {
         margin-right: 10em;
     }
-}
-
-#home {
-    background-color: #ebe1ea;
 }
