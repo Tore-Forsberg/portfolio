@@ -33,3 +33,24 @@ body {
 #projects {
     background-color: #ebe1ea;
 }
+
+.progress {
+    max-width: 200px;
+    min-width: 200px;
+}
+
+@media screen and (max-width: 1000px) {
+
+    .personalInfo,
+    .mainText,
+    .mainTitle,
+    .certificate {
+        margin-left: auto !important;
+        margin-right: auto !important;
+        text-align: center;
+    }
+
+    .float-start {
+        float: none !important;
+    }
+}
