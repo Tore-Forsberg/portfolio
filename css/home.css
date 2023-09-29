@@ -16,11 +16,11 @@
 }
 
 h1 {
-    font-size: 8em;
+    font-size: 8rem;
 }
 
 h2 {
-    font-size: 4em;
+    font-size: 4rem;
 }
 
 h1,
@@ -46,6 +46,6 @@ h2 {
 
 @media (max-width: 980px) {
     .text {
-        margin-right: 10em;
+        margin-right: 10rem;
     }
 }
