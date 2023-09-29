@@ -18,7 +18,7 @@ body {
 
 .navbar-brand {
     font-family: "AmaticSC";
-    color: #ffe0fa;
+    color: #ffe0fa !important;
     font-size: 2em;
 }
 
