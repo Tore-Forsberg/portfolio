@@ -34,10 +34,6 @@ h2 {
 }
 
 @media (max-width: 580px) {
-    .img-fluid {
-        max-width: 300px !important;
-    }
-
     #description {
         font-size: 1.5rem;
         margin-left: 4%;
@@ -47,5 +43,15 @@ h2 {
 @media (max-width: 980px) {
     .text {
         margin-right: 10rem;
+    }
+}
+
+@media (max-width: 990px) {
+    .img-fluid {
+        max-width: 300px !important;
+    }
+
+    #description {
+        max-width: 90vw !important;
     }
 }
