@@ -55,3 +55,9 @@ body {
         float: none !important;
     }
 }
+
+@media screen and (max-width: 770px) {
+    .carouselText {
+        height: 100px;
+    }
+}
